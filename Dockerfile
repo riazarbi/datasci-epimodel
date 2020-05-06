@@ -5,7 +5,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
     DEBIAN_FRONTEND=noninteractive \
     apt-get update && \
     apt-get install -y \
-    libfortran \
+    gfortran \
 # Clean out cache
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/* \
