@@ -1,4 +1,4 @@
-FROM riazarbi/datasci-r-heavy
+FROM riazarbi/datasci-r-heavy:stable
 
 RUN DEBIAN_FRONTEND=noninteractive \
     apt-get clean && \
